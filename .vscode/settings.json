@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.s": "plaintext",
+        "*.asm": "attasm",
+        "algorithm.h": "c"
+    }
+}

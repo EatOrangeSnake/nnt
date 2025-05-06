@@ -1,4 +1,4 @@
 all: algorithm
 
 basic:
-	gcc algorithm.s -o algorithm.so -shared -fPIC
+	gcc -o algorithm.so algorithm.s -shared -fPIC

@@ -1,5 +1,5 @@
-# This source file is part of the nnt project.
-# Achieve the algorithm of NNT type.
+# This source file is a part of the nnt project.
+# The algorithm of NNT type.
 
 # The size of NNT number structure is `sizeof(size_t) * 2`
 # The first `sizeof(size_t)` bytes is the data part,
@@ -20,7 +20,7 @@
 # %rax, %rdx: the result NNT number
 ot_nnt_add:
     cmp %rcx, %rsi
-    jle _ot_nnt_add_swap
+    jge _ot_nnt_add_swap
         xchg %rdx, %rdi
         xchg %rcx, %rsi
     _ot_nnt_add_swap:
