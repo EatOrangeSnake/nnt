@@ -1,4 +1,4 @@
-#include "./basic.h"
+#include "./algorithm.h"
 
 int main() {
     OT_NNT n0 = {

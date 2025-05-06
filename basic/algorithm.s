@@ -34,7 +34,7 @@ ot_nnt_add:
     push %r12
     mov %rcx, %r12
 
-    mov %rsi, %rdi
+    mov %r14, %rdi
     call malloc@plt
 
     xor %rsi, %rsi
